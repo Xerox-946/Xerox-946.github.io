@@ -1,0 +1,252 @@
+body {
+    background-color: #ffffff;
+    color: #666666;
+    background-image: url(images/bg.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 90px;
+    background-color: rgb(135, 10, 160);
+    color: #ffffff;
+    background-image: url(images/抗击疫情.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+header h1 {
+    margin-left: 1em;
+}
+
+#wrapper {
+    margin: auto;
+    width: 80%;
+    min-width: 960px;
+    background-color: rgb(108, 158, 235);
+    box-shadow: 5px 5px 5px #f08b50;
+}
+
+nav {
+    float: left;
+    display: table;
+    width: 160px;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+nav ul {
+    padding-left: 0px;
+    margin: 0;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    border-bottom: 1px solid #FFFFFF;
+    background-image: url(images/超人.gif);
+    background-repeat: no-repeat;
+    background-position: right 0;
+    text-decoration: none;
+    -webkit-transition: color 3s ease-out;
+    -moz-transition: color 3s ease-out;
+    -o-transition: color 3s ease-out;
+    transition: color 3s ease-out;
+}
+
+nav a:link {
+    color: #000033;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.content {
+    background-color: #FFFFFF;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 190px;
+}
+
+.content img,
+video,
+embed {
+    padding-right: 20px;
+}
+
+h1 {
+    margin-bottom: 0;
+    padding-top: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+
+h2 {
+    color: rgb(255, 153, 0);
+    padding: 5px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #ccc;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 25px;
+    color: #000;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+.content ul {
+    list-style-position: inside;
+}
+
+dt {
+    color: #000033;
+}
+
+.resort {
+    color: #5c7fa3;
+    padding: 10px;
+    font-weight: bold;
+}
+
+header,
+hgroup,
+nav,
+footer,
+figure,
+figcaption,
+aside,
+section,
+article {
+    display: block;
+}
+
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
+.question {
+    height: 10px;
+    color: #6beedc;
+}
+
+tr {
+    height: 10px;
+}
+
+.text {
+    text-align: left
+}
+
+.information {
+    float: left;
+    text-align: right;
+    display: block;
+    width: 120px;
+    padding-right: 10px;
+}
+
+.t,
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+figure {
+    position: absolute;
+    left: 280px;
+    text-align: center;
+    opacity: .25;
+}
+
+#gallery {
+    position: relative;
+}
+
+#gallery ul {
+    width: 300px;
+    list-style-type: none;
+}
+
+#gallery li {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+
+#gallery img {
+    border-style: none;
+}
+
+#gallery a {
+    text-decoration: none;
+    color: #eaeaea;
+    font-style: italic;
+}
+
+#gallery span {
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+    transition: opacity 3s ease-in-out;
+}
+
+#gallery a:hover span {
+    position: absolute;
+    top: 16px;
+    left: 320px;
+    text-align: center;
+    opacity: 1;
+}
+
+.copyright {
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    background-color: #323232;
+}
+
+.copyright {
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    background-color: #323232;
+}
+
+.copyright_text {
+    width: 1150px;
+    margin: 0px auto;
+    color: #ffffff;
+    text-align: center;
+}
+
+.copyright_text {
+    width: 1150px;
+    margin: 0px auto;
+    color: #ffffff;
+    text-align: center;
+}
